@@ -308,7 +308,7 @@ flowchart LR
 - [HI& 홈](https://hiand.com/home)
 - [HI& FAQ](https://hiand.com/cs/faq)
 - [HI& 라운지 이용 안내](https://hiand.com/story/feed/677dce33aa4da27b634de229)
-- [박서준 라운지 비로그인 탐색 기록](./park-seo-jun-guest-stories.md)
+- [박서준 라운지 비로그인 탐색 기록](./20260914-guest-scenario-lounge-seongbin.md)
 - [DM 글자 수 변경 안내](https://hiand.com/contents/6811dd2830ce2041f13ca92d)
 - [DM 구독자 대상 이벤트 예시](https://hiand.com/surveys/699d4df8ce62c4112e0dd4f1)
 

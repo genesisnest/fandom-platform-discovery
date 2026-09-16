@@ -46,18 +46,22 @@ Discovery 단계는 속도를 우선하므로 별도 브랜치/PR 없이 진행�
 ```bash
 git clone https://github.com/genesisnest/fandom-platform-discovery.git
 cd fandom-platform-discovery
-# docs/discovery/service-understanding/ 에 담당 영역 문서를 추가한 뒤
-git add docs/discovery/service-understanding/<파일명>
+# docs/discovery/service-understanding/<유형별 폴더>/ 에 담당 영역 문서를 추가한 뒤
+git add docs/discovery/service-understanding/<폴더>/<파일명>
 git commit -m "Add <담당 영역> story notes"
 git push origin main
 ```
 
-파일 네이밍 규칙은 아직 정해지지 않았습니다. 팀 미팅에서 규칙을 확정하기 전까지는 자유로운 이름으로 문서를 추가해 주세요. 자세한 안내는 [`docs/discovery/service-understanding/README.md`](docs/discovery/service-understanding/README.md)를 참고하세요.
+파일은 `YYYYMMDD-주제-작성자.md` 규칙으로 이름을 붙이고, 문서 성격에 맞는 폴더에 추가해 주세요. 자세한 안내는 [`docs/discovery/service-understanding/README.md`](docs/discovery/service-understanding/README.md)를 참고하세요.
 
 ## 폴더 구조
 
 ```
 docs/
   discovery/
-    service-understanding/   # Track 00: 담당 영역별 Story 정리 문서
+    service-understanding/
+      intent/                  # 서비스 의도·전략
+      service-analysis/        # 실 서비스(HI&/POC) 분석
+      user-scenarios/          # 담당 영역별 Story 정리 문서
+      requirements-coverage/   # 요구사항 원본·분석·검증 범위·테스트 기록
 ```

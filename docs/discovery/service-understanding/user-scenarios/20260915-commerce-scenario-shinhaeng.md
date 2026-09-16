@@ -8,7 +8,7 @@
 - 방법: 기획서 요구사항과 테스트 계정으로 확인한 POC 화면을 대조했다.
 - 안전 범위: 상품 선택·장바구니·주문서까지만 진행했다. 최종 결제, 주문 확정, 환불 신청, 개인정보 저장은 실행하지 않았다.
 
-상세 테스트 이력은 [Track 00 웹 테스트 리포트](./track-00-web-test-report.md), 기획서 행별 범위는 [원본 요구사항별 검증 범위](./track-00-requirement-coverage.md)를 함께 참고한다. 계정정보와 개인 주문 식별자는 이 문서에 기록하지 않는다.
+상세 테스트 이력은 [Track 00 웹 테스트 리포트](../requirements-coverage/20260915-poc-web-test-log-shinhaeng.md), 기획서 행별 범위는 [원본 요구사항별 검증 범위](../requirements-coverage/20260915-requirement-coverage-shinhaeng.md)를 함께 참고한다. 계정정보와 개인 주문 식별자는 이 문서에 기록하지 않는다.
 
 ## 2. 전체 구매 흐름
 
